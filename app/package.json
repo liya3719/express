@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "node:dev": "node ./bin/www --c ./conf/r.json",
+    "node:pro": "node ./bin/www --c ./conf/main.json"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "^1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "express-session": "^1.14.2",
+    "log4js": "^1.0.1",
+    "merge": "^1.2.0",
+    "node-compass": "^0.2.4",
+    "node-sass-middleware": "^0.10.0",
+    "optimist": "^0.6.1",
+    "path-to-regexp": "^1.7.0",
+    "qr-image": "^3.1.0",
+    "request": "^2.79.0"
+  }
+}

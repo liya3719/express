@@ -1,0 +1,13 @@
+extends layout.jade
+block content
+	-for(var i in data.res) {
+		-var dataVal = data.res[i];
+		-for(var i = 0, len = dataVal.length; i < len; i++) {
+			-var items = dataVal[i];
+			-for(var j in items) {
+				-if (j == 'timeStr') {
+					p #{items[j]}
+				-}
+			-}
+		-}
+	-}

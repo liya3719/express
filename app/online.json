@@ -1,0 +1,11 @@
+{
+  "apps" : [{
+  	"name": "nat_fe",
+  	"cwd": "/data/nat_fe/app",
+    "script": "./online.sh",
+    "exec_interpreter" : "bash",
+    "error_file": "/logs/error.log",
+    "log_date_format": "YYYY - MM - DD HH: mm Z",
+    "watch": true
+  }]
+}

@@ -1,0 +1,27 @@
+{
+	"routes": [
+		{
+			"ws": {
+				"hostname": "apina.51talk.com",
+				"pathname": "/rest/1.0/order/%s/%s/",
+				"method": "get",
+				"port": 80
+			},
+			"ns": "/",
+			"uriHandler": "var opts = this.opts; opts.pathname = opts.pathname.replace('%s', this.req.query.is_virtual==1?'virtual_ticket':'ticket').replace('%s', this.req.query.id); return opts",
+			"path": "/tickets/detail/"
+		},
+		{
+			"ws": {
+				"hostname": "apina.51talk.com",
+				"pathname": "/rest/1.0/movie_session/h5/",
+				"method": "get",
+				"port": 80,
+				"search": "?movie_id=175"
+			},
+			"ns": "/api",
+			"path": "/movie_session/"
+		}
+	],
+	"debug": "on"
+}

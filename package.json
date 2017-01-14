@@ -1,0 +1,56 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "前端打包构建",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.14.0",
+    "event-stream": "^3.3.4",
+    "glob": "^7.0.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-base64": "^0.1.3",
+    "gulp-changed": "^1.3.2",
+    "gulp-changed-in-place": "^2.0.3",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-filter": "^4.0.0",
+    "gulp-gunzip": "0.0.3",
+    "gulp-gzip": "^1.4.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jade": "^1.1.0",
+    "gulp-make-css-url-version": "0.0.13",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-requirejs-optimize": "^1.2.0",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-collector": "^1.0.5",
+    "gulp-sass": "^2.3.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-shell": "^0.5.2",
+    "gulp-tar": "^1.9.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-untar": "0.0.4",
+    "jade": "^1.11.0",
+    "minimist": "^1.2.0",
+    "mockjs": "^1.0.0",
+    "thunks": "^4.5.1"
+  },
+  "devDependencies": {
+    "gulp-clean": "^0.3.2",
+    "gulp-rev-collector": "^1.0.5",
+    "requirejs": "^2.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "gulp watch --mod=app --env=dev",
+    "build:pro": "gulp build --mod=app --env=pro"
+  },
+  "keywords": [
+    "gulp",
+    "requirejs",
+    "node"
+  ],
+  "author": "liya",
+  "license": "ISC"
+}

@@ -1,0 +1,37 @@
+{
+    "code": 1,
+    "res": {
+        "reservationOK": [
+            {
+                "date": "2016-05-26",
+                "status": "on"
+            },
+            {
+                "date": "2016-05-27",
+                "status": "on"
+            },
+            {
+                "date": "2016-05-28",
+                "status": "on"
+            },
+            {
+                "date": "2016-05-29",
+                "status": "off"
+            },
+            {
+                "date": "2016-05-30",
+                "status": "off"
+            },
+            {
+                "date": "2016-05-31",
+                "status": "off"
+            },
+            {
+                "date": "2016-06-01",
+                "status": "off"
+            }
+        ],
+        "reservationNo": []
+    },
+    "remindMsg": ""
+}

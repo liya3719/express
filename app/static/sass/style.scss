@@ -1,0 +1,12 @@
+@import 'utilities/_px2rem.scss';
+body {
+	font-size:px2em(10px);
+  	padding: 50px;
+}
+ul {
+	font-size:1.2em;
+}
+a {
+	display:block;
+  	color: #00B7FF;
+}
